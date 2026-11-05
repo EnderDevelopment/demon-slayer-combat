@@ -1,0 +1,25 @@
+name: EnderCombat
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A complete Roblox-style combat system with custom weapons, stamina, dodging, combos, combat tagging and damage indicators.
+author: EnderDevelopment
+permissions:
+  endercombat.reload:
+    description: Allows reloading the combat configuration.
+    default: op
+  endercombat.giveweapon:
+    description: Allows giving custom combat weapons to players.
+    default: op
+commands:
+  combat:
+    description: Main combat system command.
+    usage: /combat <reload|status>
+    permission: endercombat.reload
+    permission-message: You do not have permission to use this command.
+  giveweapon:
+    description: Gives a custom weapon to the player.
+    usage: /giveweapon <name>
+    aliases: [weapon]
+    permission: endercombat.giveweapon
+    permission-message: You do not have permission to use this command.

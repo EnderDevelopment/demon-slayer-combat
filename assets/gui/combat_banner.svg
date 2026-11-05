@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="crispEdges">
+  <!-- EnderCombat pixel-art emblem: two crossed swords on a dark banner. -->
+  <rect x="0" y="0" width="64" height="64" fill="#1b1b2f"/>
+  <rect x="0" y="0" width="64" height="8" fill="#3a0d0d"/>
+  <rect x="0" y="56" width="64" height="8" fill="#3a0d0d"/>
+  <!-- Left sword -->
+  <rect x="18" y="10" width="4" height="36" fill="#c9c9c9"/>
+  <rect x="17" y="8" width="6" height="4" fill="#8a8a8a"/>
+  <rect x="16" y="4" width="2" height="4" fill="#e0e0e0"/>
+  <rect x="22" y="4" width="2" height="4" fill="#e0e0e0"/>
+  <rect x="18" y="46" width="4" height="4" fill="#6b4a1f"/>
+  <rect x="16" y="50" width="8" height="3" fill="#6b4a1f"/>
+  <!-- Right sword -->
+  <rect x="42" y="10" width="4" height="36" fill="#c9c9c9"/>
+  <rect x="41" y="8" width="6" height="4" fill="#8a8a8a"/>
+  <rect x="40" y="4" width="2" height="4" fill="#e0e0e0"/>
+  <rect x="46" y="4" width="2" height="4" fill="#e0e0e0"/>
+  <rect x="42" y="46" width="4" height="4" fill="#6b4a1f"/>
+  <rect x="40" y="50" width="8" height="3" fill="#6b4a1f"/>
+  <!-- Red combo flame between the blades -->
+  <rect x="28" y="22" width="8" height="4" fill="#ff3b3b"/>
+  <rect x="26" y="26" width="12" height="4" fill="#ff6b1a"/>
+  <rect x="30" y="18" width="4" height="4" fill="#ffd23b"/>
+</svg>

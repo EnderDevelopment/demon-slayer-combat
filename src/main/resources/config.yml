@@ -1,0 +1,33 @@
+# EnderCombat configuration
+# Roblox-style combat system.
+
+combat-tag:
+  enabled: true
+  # How long a player stays in combat after landing or taking a hit, in ticks (20 = 1 second).
+  duration-ticks: 200
+
+stamina:
+  enabled: true
+  # Stamina regeneration per second (out of 100).
+  regen-per-second: 6
+  # Stamina cost of a dodge.
+  dodge-cost: 50
+  # Cooldown between dodges, in ticks.
+  dodge-cooldown-ticks: 160
+
+combo:
+  enabled: true
+  # Combo chain window before it resets, in ticks.
+  window-ticks: 60
+  # Multipliers per combo tier (index = combo count) applied to combo weapons.
+  multipliers:
+    - 1.0
+    - 1.0
+    - 1.2
+    - 1.2
+    - 1.5
+    - 1.5
+    - 2.0
+
+spacebar:
+  enabled: true
